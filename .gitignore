@@ -1,1 +1,19 @@
-docs/
+# Compiled objects
+objects/
+*.o
+*.d
+
+# Library / test binaries
+libasm.a
+a.out
+test
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
